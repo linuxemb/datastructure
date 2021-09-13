@@ -1,7 +1,8 @@
 #include "Cell.h"
 
-Cell::Cell(int value, Cell* next)
- :m_value(value),
-  m_next(next) {
+Node::Node(int value, Node* next, Node* prev)
+ :m_val(value),
+  m_next(next),
+  m_prev(prev) {
   // Empty.
 }

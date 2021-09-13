@@ -8,6 +8,7 @@ class Stack {
     bool empty() const;
 
   private:
+    
     Cell* m_firstCellPtr;
     int m_size;
 };
